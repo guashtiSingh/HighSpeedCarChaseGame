@@ -3,7 +3,6 @@
     background-size:cover;
 }
 
-
 /* styling for slides that are inactive */
 .impress-enabled .step {
     margin: 0;
@@ -15,10 +14,11 @@
     transition: opacity 1s ease;
 }
 
-/* styling for slides that are active*/
-.impress-enabled .step.active {
-    opacity: 1;
-}
+    /* styling for slides that are active*/
+    .impress-enabled .step.active {
+        opacity: 1;
+    }
+
 
 /* styling for all slides */
 .slide {
@@ -41,7 +41,7 @@
         margin-bottom: 30px;
         line-height: 30px;
 }
-
+   
 /* styling for slide links */
 .slide a, .slide a:visited {
         color: #071549;
@@ -50,16 +50,17 @@
         padding: 5px;
         border-radius: 5px;
         border: 1px solid #e94f3a;
-}
+        
+    }
 
 .slide a:hover, .slide a:active {
-        background-color: #ce867d;
-}
+            background-color: #ce867d;
+        }
 
 /* styling for slide text area */
 .slide .slide-text {
-       height: 450px;
-}
+        height: 450px;
+    }
 
 /* styling for menu section of each slide */
 div.menu {

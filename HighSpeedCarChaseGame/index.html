@@ -3,9 +3,9 @@
 <head>
     <!--Source file: index.html
     Author: Guashti Singh
-    Last Modified: May 27, 2015
+    Last Modified: May 25, 2015
     Program Description: A Car Chase Driving Game designed with impress.js
-    Revision History:  -->
+    Revision History: https://github.com/guashtiSingh/Assignment-1-HighSpeedCarChase -->
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
-<body onload="impress">
+<body>
     <div id="impress">
         <!--First(Intro) Slide-->
         <div id="intro" class="step slide">
@@ -38,7 +38,6 @@
                 <p> <a href="#tunnels"> TURN LEFT</a>    leading towards two tunnels.</p>
             </div> <!-- End of slide-text-->
         </div> <!-- End of Slide 1-->
-
         <!--Second Slide-->
         <div id="bridges" class="step slide" data-x="1200">
             <div class="slide-text">
@@ -56,7 +55,6 @@
             </div> <!-- End of slide-text-->
             <div class="menu"> <a href="#intro">START OVER</a> </div>
         </div> <!--End of Slide 2-->
-
         <!--Third Slide-->
         <div id="tunnels" class="step slide" data-x="2400">
             <div class="slide-text">
@@ -245,6 +243,6 @@
 
     <!--JavaScript Section-->
     <script src="Scripts/lib/impress.js"></script>
-    <script>impress.init();</script>
+    <script>impress().init();</script>
 </body>
 </html>
